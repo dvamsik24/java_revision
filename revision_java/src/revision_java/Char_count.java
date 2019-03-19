@@ -25,20 +25,7 @@ public class Char_count {
 			}
 		}
 		System.out.println("length of just characters = "+count);
-		/*
-		//to count only letters and avoid the numbers
-		String t = "I am newhaven 2365, greatness in plethora";
-		int frog=0;
-		for(int j=0;j<t.length();j++) {
-			char z = t.charAt(j);
-			if()
-			boolean b = t.isLetter(j);
-			while(b) {
-				frog++;	
-			}
-		}
-		System.out.println("length of just letters excluding numbers = "+frog);
-		*/
+		
 		
 		String test = "Hello World zZz";
 		String a = test.toLowerCase();
@@ -54,22 +41,6 @@ public class Char_count {
 			}
 			HashMap letters = new HashMap();
 			letters.put(a.charAt(x), lol);
-			while(!letters.isEmpty()) {
-				System.out.println(a.charAt(x) + letters.get(a.charAt(x))); 
-			}
-				 
-				/*
-				Set setA = new HashSet();
-
-				setA.add(a.charAt(x) + " "+lol);
-				Iterator iterator = setA.iterator();
-				while(iterator.hasNext()){
-					  String element = (String) iterator.next();
-					  System.out.println(element);
-					}
-				//System.out.println(a.charAt(x) + " "+lol);
-				 */
-				 
 		}
 	}
 
